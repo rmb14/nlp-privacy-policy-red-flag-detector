@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Privacy Policy Analyzer",
+  "version": "1.0",
+  "description": "Analyze privacy policy text on web pages for concerning clauses",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "contextMenus"
+  ],
+  "host_permissions": [
+    "http://localhost:8000/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Analyze Privacy Policy"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  }
+}
