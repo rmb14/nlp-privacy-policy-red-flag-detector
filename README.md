@@ -18,9 +18,3 @@ Just a simple NLP Project which trains a model after scraping concerning clauses
 
 # Demonstration
 ![alt text](image.png)
-
-# Team Contributions
-1. SE23UARI101 - Entire model training code, dataset scraping code, Flask App.
-2. SE23UARI103 - Made the chrome extension, cleaned the dataset rows (removing false positives, malformed clauses, bad quality samples)
-3. SE23UARI030 - cleaned the dataset rows (removing false positives, malformed clauses, bad quality samples), helped me with the code, contributed to writing the readme.md
-4. SE23UARI144 - cleaned the dataset rows (removing false positives, malformed clauses, bad quality samples), helped me with the code, contributed to writing the readme.md
